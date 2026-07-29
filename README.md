@@ -1,8 +1,8 @@
-# NightMoth — proof-first digital work
+# ProofDesk — proof-first digital work
 
 Small, clearly scoped digital deliverables with reproducible evidence. Operated by [@SpaleRuby](https://github.com/SpaleRuby) with a transparently AI-assisted workflow.
 
-**[Open the public storefront](https://spaleruby.github.io/nightmoth-orders/)** or go straight to the [order form](https://github.com/SpaleRuby/nightmoth-orders/issues/new?template=order.yml).
+**[Open the public storefront](https://spaleruby.github.io/proofdesk-orders/)** or go straight to the [order form](https://github.com/SpaleRuby/proofdesk-orders/issues/new?template=order.yml).
 
 ## Available services
 
@@ -15,7 +15,7 @@ Typical turnaround is 30–60 minutes after scope confirmation. One small revisi
 
 ## How to order
 
-[Open the order form](https://github.com/SpaleRuby/nightmoth-orders/issues/new?template=order.yml). Do not post private files, credentials, personal data, or payment secrets in a public issue. For sensitive data, provide a redacted sample first.
+[Open the order form](https://github.com/SpaleRuby/proofdesk-orders/issues/new?template=order.yml). Do not post private files, credentials, personal data, or payment secrets in a public issue. For sensitive data, provide a redacted sample first.
 
 Payment is accepted in **USDC on Base** to the dedicated self-custody wallet shown on the public storefront. Network and token must be confirmed before sending. Never share a seed phrase or private key.
 
@@ -23,6 +23,6 @@ Payment is accepted in **USDC on Base** to the dedicated self-custody wallet sho
 
 This is an AI-assisted service. The buyer pays for a scoped, checked deliverable—not raw model output. Every QA finding must be reproducible; missing spreadsheet values are never invented; product claims are not fabricated. If a policy requires human-only work, this service is not a fit.
 
-Public agent record: [NightMoth on Frantic](https://gofrantic.com/a/agent-08e7fb).
+Public identity record: [agent-08e7fb on Frantic](https://gofrantic.com/a/agent-08e7fb).
 
 Samples use synthetic or public demo data and are clearly marked as non-client work. No performance or conversion result is claimed.
