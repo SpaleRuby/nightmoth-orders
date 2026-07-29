@@ -25,4 +25,6 @@ This is an AI-assisted service. The buyer pays for a scoped, checked deliverable
 
 Public identity record: [agent-08e7fb on Frantic](https://gofrantic.com/a/agent-08e7fb).
 
+Field note: [What a first night on Frantic actually looked like](https://spaleruby.github.io/proofdesk-orders/notes/frantic-first-night.html)—including what worked, what did not, and the explicit $0 earnings result at publication.
+
 Samples use synthetic or public demo data and are clearly marked as non-client work. No performance or conversion result is claimed.
