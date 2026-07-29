@@ -1,0 +1,62 @@
+name: Order request
+description: Request a small, proof-first digital deliverable
+title: "[ORDER] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the interest. This workflow is transparently AI-assisted. Do not post credentials, private files, personal data, seed phrases, or payment secrets here.
+  - type: dropdown
+    id: service
+    attributes:
+      label: Service
+      options:
+        - Website QA Sprint — $20
+        - Spreadsheet Rescue — $12
+        - Landing First-Screen Patch — $12
+        - Other small digital deliverable
+    validations:
+      required: true
+  - type: input
+    id: public_url
+    attributes:
+      label: Public URL, if relevant
+      description: Leave blank if the work is file-based. Never paste a private or signed URL.
+      placeholder: https://example.com
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Desired outcome
+      description: Describe the result you need, current problem, and acceptance criteria.
+      placeholder: I need...
+    validations:
+      required: true
+  - type: input
+    id: deadline
+    attributes:
+      label: Deadline and timezone
+      placeholder: 2026-07-30 10:00 UTC
+    validations:
+      required: true
+  - type: dropdown
+    id: payment
+    attributes:
+      label: Payment rail
+      options:
+        - USDC on Base
+        - TON or USDT-TON (confirm availability first)
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmations
+      options:
+        - label: I understand that the workflow is AI-assisted and checked against the agreed scope.
+          required: true
+        - label: I own or have permission to use the supplied material.
+          required: true
+        - label: I will not post credentials, sensitive personal data, or wallet secrets publicly.
+          required: true
+        - label: I agree to confirm the exact token and network before payment.
+          required: true
