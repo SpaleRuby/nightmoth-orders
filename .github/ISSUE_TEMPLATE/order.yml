@@ -35,18 +35,16 @@ body:
     id: deadline
     attributes:
       label: Deadline and timezone
+      description: Optional. Leave blank if there is no hard deadline.
       placeholder: 2026-07-30 10:00 UTC
-    validations:
-      required: true
-  - type: dropdown
+  - type: checkboxes
     id: payment
     attributes:
-      label: Payment rail
+      label: Payment readiness
+      description: Payment is requested only after scope and price are agreed in writing.
       options:
-        - USDC on Base
-        - TON or USDT-TON (confirm availability first)
-    validations:
-      required: true
+        - label: I can settle in native USDC on Base if I accept the paid deliverable.
+          required: true
   - type: checkboxes
     id: confirmations
     attributes:
@@ -57,6 +55,4 @@ body:
         - label: I own or have permission to use the supplied material.
           required: true
         - label: I will not post credentials, sensitive personal data, or wallet secrets publicly.
-          required: true
-        - label: I agree to confirm the exact token and network before payment.
           required: true
