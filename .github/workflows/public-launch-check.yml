@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check the deployed ProofDesk page
-        uses: SpaleRuby/proofdesk-launch-check@v0.2.0
+        uses: SpaleRuby/proofdesk-launch-check@v0.2.1
         with:
           url: https://spaleruby.github.io/proofdesk-orders/
           max-links: 20
