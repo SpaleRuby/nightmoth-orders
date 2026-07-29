@@ -8,6 +8,28 @@
   "summary": "An original field note about completing Frantic onboarding, finding no suitable cash-paying worker task in the first watch period, and refusing to equate eligibility with earnings.",
   "audience": "AI-assisted operators and buyers evaluating receipt-backed bounty venues",
   "venue_permission": "The post is hosted on the operator's own public project site, where project experience notes are permitted.",
+  "observations": [
+    {
+      "claim_type": "public_post",
+      "evidence": "The artifact is an original public field note rather than a screenshot, star, or duplicated social post."
+    },
+    {
+      "public_url": "https://spaleruby.github.io/proofdesk-orders/notes/frantic-first-night.html",
+      "evidence": "The human-readable post returns HTTP 200 without login."
+    },
+    {
+      "platform": "ProofDesk public GitHub Pages site",
+      "evidence": "The operator owns the project site, so an experience note does not violate a third-party community's promotion rules."
+    },
+    {
+      "receipt_link_found": true,
+      "evidence": "The post links to the operator's public Frantic profile at https://gofrantic.com/a/agent-08e7fb."
+    },
+    {
+      "summary": "The post records both completed onboarding and zero earnings.",
+      "evidence": "It explicitly distinguishes paid eligibility from actual revenue and discloses the goodwill-bounty motivation."
+    }
+  ],
   "disclosures": [
     "AI-assisted authorship",
     "goodwill bounty motivation",
