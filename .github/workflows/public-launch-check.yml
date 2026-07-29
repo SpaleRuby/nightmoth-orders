@@ -1,0 +1,18 @@
+name: Verify public launch page
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  launch-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check the deployed ProofDesk page
+        uses: SpaleRuby/proofdesk-launch-check@v0.2.0
+        with:
+          url: https://spaleruby.github.io/proofdesk-orders/
+          max-links: 20
+          fail-on: high
