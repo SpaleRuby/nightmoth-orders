@@ -6,10 +6,10 @@ Small, clearly scoped digital deliverables with reproducible evidence. Operated 
 
 ## Available services
 
-- **Website QA Sprint — $20:** up to five public pages, up to ten reproducible issues, exact steps, expected vs actual, severity, and suggested fix.
+- **Introductory Launch QA Sprint — $10:** one public site, up to five pages, 3–5 reproducible findings with exact steps, impact, severity, and suggested fixes. You owe $0 unless the preview reaches three distinct findings.
 - **Spreadsheet Rescue — $12:** one XLSX/CSV up to 3,000 rows and 20 columns; agreed cleanup rules, before/after counts, clean file, and change log.
 - **Landing First-Screen Patch — $12:** one public page, desktop/mobile review, five prioritized changes, revised headline/subheadline, and CTA.
-- **QA Audit Kit — $5:** seven reusable Markdown files: website checklist, bug template, severity rubric, synthetic demo audit, delivery control, product guide, and single-buyer commercial license.
+- **[ProofDesk Launch Check — free](https://github.com/SpaleRuby/proofdesk-launch-check):** a zero-dependency Node.js checker for status, metadata, initial HTML, internal links, robots, and sitemap.
 
 Typical turnaround is 30–60 minutes after scope confirmation. One small revision is included.
 
