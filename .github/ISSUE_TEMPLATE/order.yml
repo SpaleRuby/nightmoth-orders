@@ -14,6 +14,7 @@ body:
         - Website QA Sprint — $20
         - Spreadsheet Rescue — $12
         - Landing First-Screen Patch — $12
+        - QA Audit Kit — $5
         - Other small digital deliverable
     validations:
       required: true
