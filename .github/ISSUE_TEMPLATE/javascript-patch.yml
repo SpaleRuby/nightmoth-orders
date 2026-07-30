@@ -1,0 +1,87 @@
+name: JavaScript or TypeScript patch request
+description: Request a focused, test-backed bug fix starting at $25
+title: "[JS/TS PATCH] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This workflow is transparently AI-assisted. A written preflight confirms the exact scope, acceptance criteria, base commit, fixed USD price, and payout rail before implementation.
+
+        Typical deliverable: one reproducible failing test, a focused JavaScript or TypeScript patch, passing focused tests, and a concise handoff. Work starts only after funded escrow or 50% upfront. Do not post credentials, private files, personal data, seed phrases, or payment secrets here.
+  - type: input
+    id: repository
+    attributes:
+      label: Repository or project URL
+      description: Link a public repository you control or may lawfully commission work for. For private work, describe the stack without sharing access here.
+      placeholder: https://github.com/owner/repository
+    validations:
+      required: true
+  - type: input
+    id: issue
+    attributes:
+      label: Existing issue or specification
+      description: Link the bug report or written specification if one exists.
+      placeholder: https://github.com/owner/repository/issues/123
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction and expected result
+      description: Give the smallest safe reproduction, current result, expected result, and relevant commands. Redact all secrets.
+      placeholder: |
+        Steps:
+        1.
+        2.
+
+        Current:
+        Expected:
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria and constraints
+      description: List required tests, supported versions, files that must not change, and any other completion criteria.
+      placeholder: |
+        - A regression test fails before the patch and passes after it.
+        - Existing focused tests remain green.
+        - No dependency or public API changes.
+    validations:
+      required: true
+  - type: input
+    id: base
+    attributes:
+      label: Acceptance base
+      description: Branch and commit SHA that the work must target. This may be confirmed during preflight.
+      placeholder: main at abc123...
+  - type: input
+    id: deadline
+    attributes:
+      label: Deadline and timezone
+      description: Optional. Leave blank if there is no hard deadline.
+      placeholder: 2026-07-30 23:00 UTC
+  - type: dropdown
+    id: payout
+    attributes:
+      label: Preferred funded payout rail
+      description: The exact network, token, amount, and address are reconfirmed privately before payment.
+      options:
+        - XMR mainnet
+        - Native USDC on Base
+        - Existing reputable escrow with an eligible crypto payout
+    validations:
+      required: true
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmations
+      options:
+        - label: I understand that pricing starts at $25 and work begins only after funded escrow or 50% upfront.
+          required: true
+        - label: I control this project or am authorized to commission the requested work.
+          required: true
+        - label: I understand that the workflow is AI-assisted and checked against the agreed acceptance criteria.
+          required: true
+        - label: This request does not involve security exploitation, malware, credentials, payment or wallet logic, mining, or bypassing access controls.
+          required: true
+        - label: I will not post credentials, sensitive personal data, private files, or wallet secrets publicly.
+          required: true
