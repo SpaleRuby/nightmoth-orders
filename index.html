@@ -14,6 +14,21 @@
       href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&amp;family=Manrope:wght@400;600;700;800&amp;display=swap"
       as="style"
     />
+    <style>
+      .service-marketplaces {
+        margin-top: auto;
+      }
+
+      .service-card .service-marketplaces a {
+        margin-top: 0;
+      }
+
+      .service-card .service-marketplaces a + a {
+        border-top: 0;
+        color: var(--muted);
+        padding-top: 10px;
+      }
+    </style>
     <title>ProofDesk — Launch QA with reproducible proof</title>
     <meta
       name="description"
@@ -156,8 +171,9 @@
           <p>
             Choose a bespoke launch audit with a proof-first payment gate, or
             use a ready-made x402 kit, demand report, or managed-host QA API.
-            Every paid listing shows its exact scope and settles directly to the
-            ProofDesk Base wallet through PayanAgent.
+            Every paid listing shows its exact scope. PayanAgent settles directly
+            to the ProofDesk Base wallet; AgentPact uses buyer-funded USDC on Base
+            escrow.
           </p>
         </div>
         <div class="service-grid">
@@ -191,11 +207,20 @@
               JSON Schema, checklist, listing copy, buyer worksheet, demand
               report, and SHA-256 manifest.
             </p>
-            <a
-              href="https://payanagent.com/marketplace/offers/kh7apcg59req0q3k82xn299yv58bg1k6"
-              >View the kit on PayanAgent<!-- -->
-              <span aria-hidden="true">→</span></a
+            <nav
+              class="service-marketplaces"
+              aria-label="x402 Launch Evidence Kit marketplaces"
             >
+              <a
+                href="https://agentpact.xyz/offers/e1e3e3af-0ea4-4703-b6ea-da17ce28c96b"
+                >View the kit on AgentPact<!-- -->
+                <span aria-hidden="true">→</span></a
+              ><a
+                href="https://payanagent.com/marketplace/offers/kh7apcg59req0q3k82xn299yv58bg1k6"
+                >Also on PayanAgent<!-- -->
+                <span aria-hidden="true">→</span></a
+              >
+            </nav>
           </article>
           <article class="service-card">
             <div class="service-meta">
@@ -209,11 +234,20 @@
               Seven pages on paid demand, pricing, reliability controls, product
               choices, and reproducible sources.
             </p>
-            <a
-              href="https://payanagent.com/marketplace/offers/kh77b1tms6b1k031zeq0cdvrad8bgk5j"
-              >View the report on PayanAgent<!-- -->
-              <span aria-hidden="true">→</span></a
+            <nav
+              class="service-marketplaces"
+              aria-label="Machine-Paid API Demand Report marketplaces"
             >
+              <a
+                href="https://agentpact.xyz/offers/b05811a8-665a-4155-9d8f-56b50547d124"
+                >View the report on AgentPact<!-- -->
+                <span aria-hidden="true">→</span></a
+              ><a
+                href="https://payanagent.com/marketplace/offers/kh77b1tms6b1k031zeq0cdvrad8bgk5j"
+                >Also on PayanAgent<!-- -->
+                <span aria-hidden="true">→</span></a
+              >
+            </nav>
           </article>
           <article class="service-card">
             <div class="service-meta">
@@ -303,11 +337,13 @@
       >
         <div class="section-heading">
           <p class="kicker">Real public evidence</p>
-          <h2 id="reports-title">Four launch reports you can inspect.</h2>
+          <h2 id="reports-title">
+            Public reports and one maintainer-confirmed outcome.
+          </h2>
           <p>
             These are value-first findings on public launches—not client
-            endorsements. Every linked report includes reproduction evidence,
-            impact, and a proposed correction.
+            endorsements. Every link exposes the evidence trail, including one
+            owner-confirmed case where all findings shipped.
           </p>
         </div>
         <div class="report-link-grid">
@@ -349,6 +385,16 @@
             <h3>A weekly Codex rate limit was labeled as the 5h window</h3>
             <span class="report-link-action"
               >Inspect the public report
+              <span aria-hidden="true">↗</span></span
+            ></a
+          ><a
+            class="report-link-card"
+            href="https://github.com/marceld23/BlocksBeyondTheStars/issues/574#issuecomment-5129560636"
+            ><div><span>05</span><span>MAINTAINER-CONFIRMED</span></div>
+            <p>Blocks Beyond the Stars</p>
+            <h3>4/4 findings fixed, merged, and protected by 11 tests</h3>
+            <span class="report-link-action"
+              >Inspect the owner confirmation
               <span aria-hidden="true">↗</span></span
             ></a
           >
@@ -444,9 +490,10 @@
           <h2 id="payment-title">One address. One supported rail.</h2>
           <p>
             Bespoke payment is requested only after scope and price are agreed
-            in writing. Ready-made products and API calls settle automatically
-            through PayanAgent in <strong>USDC on Base</strong>; its checkout
-            requires an x402-capable agent or wallet client.
+            in writing. PayanAgent purchases settle automatically in
+            <strong>USDC on Base</strong> and require an x402-capable agent or
+            wallet client. On AgentPact, the buyer funds USDC on Base escrow
+            before fulfillment; AgentPact charges ProofDesk a 10% seller fee.
           </p>
         </div>
         <div class="wallet-card">
