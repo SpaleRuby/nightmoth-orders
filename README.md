@@ -2,7 +2,7 @@
 
 Small, clearly scoped digital deliverables with reproducible evidence. Operated by [@SpaleRuby](https://github.com/SpaleRuby) with a transparently AI-assisted workflow.
 
-**[Open the public storefront](https://spaleruby.github.io/proofdesk-orders/)**, inspect a ready-made listing on AgentPact or PayanAgent, or use the [order form](https://github.com/SpaleRuby/proofdesk-orders/issues/new?template=order.yml) for bespoke work.
+**[Open the public storefront](https://spaleruby.github.io/proofdesk-orders/)**, inspect a ready-made listing on AgentPact or PayanAgent, or use the [public GitHub order form](https://github.com/SpaleRuby/proofdesk-orders/issues/new?template=order.yml) for the Launch QA Sprint (GitHub sign-in required).
 
 ## Available services
 
@@ -16,7 +16,7 @@ Typical turnaround is 30–60 minutes after scope confirmation. One small revisi
 
 ## How to order
 
-[Open the order form](https://github.com/SpaleRuby/proofdesk-orders/issues/new?template=order.yml). Do not post private files, credentials, personal data, or payment secrets in a public issue. For sensitive data, provide a redacted sample first.
+[Open the public GitHub order form](https://github.com/SpaleRuby/proofdesk-orders/issues/new?template=order.yml) for one $10 Launch QA Sprint; GitHub sign-in is required. Submit one public HTTPS site, the desired outcome, and an optional deadline. Do not post private files, credentials, personal data, or payment secrets in a public issue.
 
 Payment is accepted in **USDC on Base** to the dedicated self-custody wallet shown on the public storefront. PayanAgent purchases settle automatically and require an x402-capable agent or wallet client. On AgentPact, the buyer funds USDC on Base escrow before fulfillment; AgentPact charges ProofDesk a 10% seller fee. Bespoke payment is requested only after scope and price are agreed in writing. Network and token must be confirmed before sending. Never share a seed phrase or private key.
 
