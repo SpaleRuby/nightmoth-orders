@@ -13,13 +13,13 @@ Small, clearly scoped digital deliverables with reproducible evidence. Operated 
 - **[Managed-Host Launch QA API — $0.04/call](https://payanagent.com/marketplace/offers/kh77hvtk8yfvn5vs4qz474jtsh8bgygf):** a bounded, source-level launch check for the documented managed-hosting domains.
 - **[ProofDesk Launch Check — free](https://github.com/SpaleRuby/proofdesk-launch-check):** a zero-dependency Node.js checker for status, metadata, initial HTML, internal links, robots, and sitemap.
 
-Typical turnaround is 30–60 minutes after scope confirmation. One small revision is included.
+Ready-made products and the Launch QA Sprint typically turn around in 30–60 minutes after scope confirmation. JavaScript/TypeScript patch timing is quoted only after the repository, reproduction, acceptance base, and tests are reviewed. One small in-scope revision is included.
 
 ## How to order
 
 [Open the Launch QA form](https://github.com/SpaleRuby/proofdesk-orders/issues/new?template=order.yml) for one $10 public-site review, or the [JavaScript/TypeScript patch form](https://github.com/SpaleRuby/proofdesk-orders/issues/new?template=javascript-patch.yml) for one test-backed fix starting at $25. GitHub sign-in is required. Do not post private files, credentials, personal data, or payment secrets in a public issue.
 
-Payment is accepted in **USDC on Base** to the dedicated self-custody wallet shown on the public storefront. PayanAgent purchases settle automatically and require an x402-capable agent or wallet client. On AgentPact, the buyer funds USDC on Base escrow before fulfillment; AgentPact charges ProofDesk a 10% seller fee. Bespoke payment is requested only after scope and price are agreed in writing. Network and token must be confirmed before sending. Never share a seed phrase or private key.
+Direct bespoke work can settle in **XMR mainnet** or **native USDC on Base**, or through an existing reputable escrow that supports an eligible crypto payout. PayanAgent purchases settle automatically and require an x402-capable agent or wallet client. On AgentPact, the buyer funds USDC on Base escrow before fulfillment; AgentPact charges ProofDesk a 10% seller fee. Payment is requested only after scope and price are agreed in writing. Network, token, amount, and public receiving address must be confirmed before sending. Never share a seed phrase or private key.
 
 ## Quality and AI disclosure
 

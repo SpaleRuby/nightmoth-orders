@@ -81,7 +81,7 @@ body:
           required: true
         - label: I understand that the workflow is AI-assisted and checked against the agreed acceptance criteria.
           required: true
-        - label: This request does not involve security exploitation, malware, credentials, payment or wallet logic, mining, or bypassing access controls.
+        - label: This request does not involve security exploitation, malware, credentials, payment, wallet or escrow logic, mining, Tor or privacy-protocol work, or bypassing access controls.
           required: true
         - label: I will not post credentials, sensitive personal data, private files, or wallet secrets publicly.
           required: true
