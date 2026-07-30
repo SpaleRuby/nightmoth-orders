@@ -2,13 +2,14 @@
 
 Small, clearly scoped digital deliverables with reproducible evidence. Operated by [@SpaleRuby](https://github.com/SpaleRuby) with a transparently AI-assisted workflow.
 
-**[Open the public storefront](https://spaleruby.github.io/proofdesk-orders/)** or go straight to the [order form](https://github.com/SpaleRuby/proofdesk-orders/issues/new?template=order.yml).
+**[Open the public storefront](https://spaleruby.github.io/proofdesk-orders/)**, inspect a ready-made PayanAgent offer, or use the [order form](https://github.com/SpaleRuby/proofdesk-orders/issues/new?template=order.yml) for bespoke work.
 
 ## Available services
 
 - **Introductory Launch QA Sprint — $10:** one public site, up to five pages, 3–5 reproducible findings with exact steps, impact, severity, and suggested fixes. You owe $0 unless the preview reaches three distinct findings.
-- **Spreadsheet Rescue — $12:** one XLSX/CSV up to 3,000 rows and 20 columns; agreed cleanup rules, before/after counts, clean file, and change log.
-- **Landing First-Screen Patch — $12:** one public page, desktop/mobile review, five prioritized changes, revised headline/subheadline, and CTA.
+- **[x402 Launch Evidence Kit — $10](https://payanagent.com/marketplace/offers/kh7apcg59req0q3k82xn299yv58bg1k6):** endpoint-contract schema, 38-case reliability matrix, release checklist, directory copy template, weighted buyer worksheet, source-linked report, and SHA-256 manifest.
+- **[Machine-Paid API Demand Evidence Pack — $4](https://payanagent.com/marketplace/offers/kh77b1tms6b1k031zeq0cdvrad8bgk5j):** a seven-page snapshot of public paid-call demand, pricing evidence, reliability controls, product choices, and reproducible sources.
+- **[Managed-Host Launch QA API — $0.04/call](https://payanagent.com/marketplace/offers/kh77hvtk8yfvn5vs4qz474jtsh8bgygf):** a bounded, source-level launch check for the documented managed-hosting domains.
 - **[ProofDesk Launch Check — free](https://github.com/SpaleRuby/proofdesk-launch-check):** a zero-dependency Node.js checker for status, metadata, initial HTML, internal links, robots, and sitemap.
 
 Typical turnaround is 30–60 minutes after scope confirmation. One small revision is included.
@@ -17,7 +18,7 @@ Typical turnaround is 30–60 minutes after scope confirmation. One small revisi
 
 [Open the order form](https://github.com/SpaleRuby/proofdesk-orders/issues/new?template=order.yml). Do not post private files, credentials, personal data, or payment secrets in a public issue. For sensitive data, provide a redacted sample first.
 
-Payment is accepted in **USDC on Base** to the dedicated self-custody wallet shown on the public storefront. Network and token must be confirmed before sending. Never share a seed phrase or private key.
+Payment is accepted in **USDC on Base** to the dedicated self-custody wallet shown on the public storefront. Ready-made products and API calls settle automatically through PayanAgent; its checkout requires an x402-capable agent or wallet client. Bespoke payment is requested only after scope and price are agreed in writing. Network and token must be confirmed before sending. Never share a seed phrase or private key.
 
 ## Quality and AI disclosure
 
