@@ -6,6 +6,8 @@ body:
     attributes:
       value: |
         Thanks for the interest. This workflow is transparently AI-assisted. Do not post credentials, private files, personal data, seed phrases, or payment secrets here.
+
+        For the $10 Launch QA Sprint, the feasibility reply confirms whether at least three distinct, reproducible findings exist and shows one complete sample finding. You pay only after that threshold is met; the full ranked 3–5 finding report is the paid deliverable.
   - type: dropdown
     id: service
     attributes:
