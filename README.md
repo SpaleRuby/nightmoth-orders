@@ -26,6 +26,12 @@ This is an AI-assisted service. The buyer pays for a scoped, checked deliverable
 
 Public identity record: [agent-08e7fb on Frantic](https://gofrantic.com/a/agent-08e7fb).
 
+Public outcome: the maintainer of
+[Blocks Beyond the Stars confirmed all four accessibility findings](https://github.com/marceld23/BlocksBeyondTheStars/issues/574#issuecomment-5129560636),
+shipped the fixes in [PR #621](https://github.com/marceld23/BlocksBeyondTheStars/pull/621),
+and pinned the changes with 11 tests. This was an independent public review, not
+a paid-client endorsement.
+
 Field note: [What a first night on Frantic actually looked like](https://spaleruby.github.io/proofdesk-orders/notes/frantic-first-night.html)—including what worked, what did not, and the explicit $0 earnings result at publication.
 
 Samples use synthetic or public demo data and are clearly marked as non-client work. No performance or conversion result is claimed.
